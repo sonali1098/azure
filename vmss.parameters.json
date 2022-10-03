@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmssName": {
+      "value": "vmss-dev-001"
+    },
+    "location": {
+      "value": "centralindia"
+    },
+    "adminUsername": {
+      "value": "vmssadmin"
+    },
+    "adminPassword": {
+      "value": "!@#ehp$5&4#2"
+    },
+    "nicName": {
+      "value": "nic-dev-001"
+    },
+    "ipConfigName": {
+      "value": "Ipconfig"
+    },
+    "vnetName": {
+      "value": "vnet-dev-001"
+    },
+    "subnetName": {
+      "value": "vmss-subnet-001"
+    },
+    "addressPrefix": {
+      "value": "10.4.4.0/24"
+    }
+  }
+}

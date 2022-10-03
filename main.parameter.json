@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "centralindia"
+    },
+    "vnetName": {
+      "value": "vnet-vmssnet-01"
+    },
+    "vnetAddressprefix": {
+      "value": "10.5.0.0/16"
+    },
+    "subNetName1": {
+      "value": "snet-vmss-01"
+    },
+    "subnetid1": {
+      "value": "snet-001"
+    },
+    "subnetAddressPrefix001": {
+      "value": "10.5.0.0/24"
+    },
+    "pipName": {
+      "value": "pip-vmss-001"
+    },
+    "vmssName": {
+      "value": "vmscalezolo"
+    },
+    "adminUsername": {
+      "value": "vmssadmin"
+    },
+    "adminPassword": {
+      "value": "!@#ehp$5&4#2"
+    },
+    "nicName": {
+      "value": "nic"
+    },
+    "ipConfigName": {
+      "value": "Ipconfig"
+    },
+    "subnetName": {
+      "value": "vmss-subnet"
+    },
+    "addressPrefix": {
+      "value": "10.5.4.0/24"
+    }
+  }
+}
